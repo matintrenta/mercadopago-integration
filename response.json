@@ -2,7 +2,7 @@
     "id": "2c93808487832fd801878bf09c3d0301",
     "payer_id": 1352484852,
     "payer_email": "",
-    "back_url": "https://b0b9-2800-810-4f6-1965-dff-f7e-eaf1-f6cb.ngrok-free.app",
+    "back_url": "${process.env.NGROK_URL}",
     "collector_id": 1352509222,
     "application_id": 1474275356929919,
     "status": "pending",

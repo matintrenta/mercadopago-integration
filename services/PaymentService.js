@@ -18,9 +18,9 @@ class PaymentService {
         }
       ],
       back_urls: {
-        failure: "https://b0b9-2800-810-4f6-1965-dff-f7e-eaf1-f6cb.ngrok-free.app/status/failure",
-        pending: "https://b0b9-2800-810-4f6-1965-dff-f7e-eaf1-f6cb.ngrok-free.app/status/pending",
-        success: "https://b0b9-2800-810-4f6-1965-dff-f7e-eaf1-f6cb.ngrok-free.app/status/success"
+        failure: `${process.env.NGROK_URL}/status/failure`,
+        pending: `${process.env.NGROK_URL}/status/pending`,
+        success: `${process.env.NGROK_URL}/status/success`
       }
     };
 
@@ -47,7 +47,7 @@ class PaymentService {
         transaction_amount: 400,
         currency_id: "ARS"
       },
-      back_url: "https://b0b9-2800-810-4f6-1965-dff-f7e-eaf1-f6cb.ngrok-free.app",
+      back_url: process.env.NGROK_URL,
       payer_email: "test_user_847743437@testuser.com"
     };
 

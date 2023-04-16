@@ -2,9 +2,9 @@
     "additional_info": "",
     "auto_return": "",
     "back_urls": {
-        "failure": "https://b0b9-2800-810-4f6-1965-dff-f7e-eaf1-f6cb.ngrok-free.app/failure",
-        "pending": "https://b0b9-2800-810-4f6-1965-dff-f7e-eaf1-f6cb.ngrok-free.app/pending",
-        "success": "https://b0b9-2800-810-4f6-1965-dff-f7e-eaf1-f6cb.ngrok-free.app/success"
+        "failure": "${process.env.NGROK_URL}/failure",
+        "pending": "${process.env.NGROK_URL}/pending",
+        "success": "${process.env.NGROK_URL}/success"
     },
     "binary_mode": false,
     "client_id": "1474275356929919",
