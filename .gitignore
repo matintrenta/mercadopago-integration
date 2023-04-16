@@ -1,3 +1,6 @@
 .env
 cred.txt
+payment_response.json
+response.json
+success_payment.json
 /node_modules
