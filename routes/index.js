@@ -21,4 +21,8 @@ router.get("/subscription", function (req, res, next) {
   PaymentInstance.getSubscriptionLink(req, res);
 });
 
+router.get("/status/:status", function (req, res, next) {
+  res.send(req.query)
+});
+
 module.exports = router;
