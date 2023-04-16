@@ -1,0 +1,100 @@
+{
+    "additional_info": "",
+    "auto_return": "",
+    "back_urls": {
+        "failure": "https://b0b9-2800-810-4f6-1965-dff-f7e-eaf1-f6cb.ngrok-free.app/failure",
+        "pending": "https://b0b9-2800-810-4f6-1965-dff-f7e-eaf1-f6cb.ngrok-free.app/pending",
+        "success": "https://b0b9-2800-810-4f6-1965-dff-f7e-eaf1-f6cb.ngrok-free.app/success"
+    },
+    "binary_mode": false,
+    "client_id": "1474275356929919",
+    "collector_id": 1352509222,
+    "coupon_code": null,
+    "coupon_labels": null,
+    "date_created": "2023-04-16T17:24:42.660-04:00",
+    "date_of_expiration": null,
+    "expiration_date_from": null,
+    "expiration_date_to": null,
+    "expires": false,
+    "external_reference": "",
+    "id": "1352509222-bf803c7c-eab1-41e5-8f5a-aac50db7a8f6",
+    "init_point": "https://www.mercadopago.com.ar/checkout/v1/redirect?pref_id=1352509222-bf803c7c-eab1-41e5-8f5a-aac50db7a8f6",
+    "internal_metadata": null,
+    "items": [
+        {
+            "id": "website_basic",
+            "category_id": "category123",
+            "currency_id": "ARS",
+            "description": "Dummy description",
+            "picture_url": "https://http2.mlstatic.com/D_NQ_NP_949249-MLA68936547219_042023-F.jpg",
+            "title": "Website",
+            "quantity": 1,
+            "unit_price": 1000
+        }
+    ],
+    "marketplace": "NONE",
+    "marketplace_fee": 0,
+    "metadata": {},
+    "notification_url": null,
+    "operation_type": "regular_payment",
+    "payer": {
+        "phone": {
+            "area_code": "",
+            "number": ""
+        },
+        "address": {
+            "zip_code": "",
+            "street_name": "",
+            "street_number": null
+        },
+        "email": "",
+        "identification": {
+            "number": "",
+            "type": ""
+        },
+        "name": "",
+        "surname": "",
+        "date_created": null,
+        "last_purchase": null
+    },
+    "payment_methods": {
+        "default_card_id": null,
+        "default_payment_method_id": null,
+        "excluded_payment_methods": [
+            {
+                "id": ""
+            }
+        ],
+        "excluded_payment_types": [
+            {
+                "id": ""
+            }
+        ],
+        "installments": null,
+        "default_installments": null
+    },
+    "processing_modes": null,
+    "product_id": null,
+    "redirect_urls": {
+        "failure": "",
+        "pending": "",
+        "success": ""
+    },
+    "sandbox_init_point": "https://sandbox.mercadopago.com.ar/checkout/v1/redirect?pref_id=1352509222-bf803c7c-eab1-41e5-8f5a-aac50db7a8f6",
+    "site_id": "MLA",
+    "shipments": {
+        "default_shipping_method": null,
+        "receiver_address": {
+            "zip_code": "",
+            "street_name": "",
+            "street_number": null,
+            "floor": "",
+            "apartment": "",
+            "city_name": null,
+            "state_name": null,
+            "country_name": null
+        }
+    },
+    "total_amount": null,
+    "last_updated": null
+}
