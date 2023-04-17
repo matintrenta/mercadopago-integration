@@ -1,32 +1,110 @@
 {
-    "id": "2c93808487832fd801878bf09c3d0301",
-    "payer_id": 1352484852,
-    "payer_email": "",
-    "back_url": "${process.env.NGROK_URL}",
-    "collector_id": 1352509222,
-    "application_id": 1474275356929919,
-    "status": "pending",
-    "reason": "Suscripción de ejemplo",
-    "date_created": "2023-04-16T17:20:14.395-04:00",
-    "last_modified": "2023-04-16T17:20:14.397-04:00",
-    "init_point": "https://www.mercadopago.com.ar/subscriptions/checkout?preapproval_id=2c93808487832fd801878bf09c3d0301",
-    "auto_recurring": {
-        "frequency": 1,
-        "frequency_type": "months",
-        "transaction_amount": 400,
-        "currency_id": "ARS",
-        "free_trial": null
+    "paging": {
+        "offset": 0,
+        "limit": 10,
+        "total": 4
     },
-    "summarized": {
-        "quotas": null,
-        "charged_quantity": null,
-        "pending_charge_quantity": null,
-        "charged_amount": null,
-        "pending_charge_amount": null,
-        "semaphore": null,
-        "last_charged_date": null,
-        "last_charged_amount": null
-    },
-    "payment_method_id": null,
-    "first_invoice_offset": null
+    "results": [
+        {
+            "id": "2c93808487832fd801878bf09c3d0301",
+            "status": "authorized",
+            "reason": "Suscripción de ejemplo",
+            "summarized": {
+                "semaphore": "green",
+                "charged_quantity": 1,
+                "charged_amount": 400,
+                "last_charged_date": "2023-04-16T18:01:49.164-04:00",
+                "last_charged_amount": 400
+            },
+            "payer_id": 1352484852,
+            "back_url": "https://b0b9-2800-810-4f6-1965-dff-f7e-eaf1-f6cb.ngrok-free.app",
+            "collector_id": 1352509222,
+            "application_id": 1474275356929919,
+            "date_created": "2023-04-16T17:20:14.395-04:00",
+            "last_modified": "2023-04-16T18:49:45.093-04:00",
+            "init_point": "https://www.mercadopago.com.ar/subscriptions/checkout?preapproval_id=2c93808487832fd801878bf09c3d0301",
+            "auto_recurring": {
+                "frequency": 1,
+                "frequency_type": "months",
+                "transaction_amount": 400,
+                "currency_id": "ARS"
+            },
+            "next_payment_date": "2023-05-16T17:20:14.395-04:00",
+            "payment_method_id": "account_money",
+            "payer_first_name": "Test",
+            "payer_last_name": ""
+        },
+        {
+            "id": "2c938084878e56e901878fb3124c0031",
+            "status": "pending",
+            "reason": "Suscripción de ejemplo",
+            "summarized": {},
+            "payer_id": 1352484852,
+            "back_url": "https://f062-2800-810-4f6-1965-dff-f7e-eaf1-f6cb.ngrok-free.app",
+            "collector_id": 1352509222,
+            "application_id": 1474275356929919,
+            "date_created": "2023-04-17T10:51:30.250-04:00",
+            "last_modified": "2023-04-17T10:51:30.252-04:00",
+            "init_point": "https://www.mercadopago.com.ar/subscriptions/checkout?preapproval_id=2c938084878e56e901878fb3124c0031",
+            "auto_recurring": {
+                "frequency": 1,
+                "frequency_type": "months",
+                "transaction_amount": 400,
+                "currency_id": "ARS"
+            },
+            "payer_first_name": "Test",
+            "payer_last_name": ""
+        },
+        {
+            "id": "2c938084878de20d018790018b87004e",
+            "status": "authorized",
+            "reason": "Sitio Web Basico x mes",
+            "summarized": {},
+            "payer_id": 1352484852,
+            "back_url": "https://f062-2800-810-4f6-1965-dff-f7e-eaf1-f6cb.ngrok-free.app/success",
+            "collector_id": 1352509222,
+            "application_id": 1474275356929919,
+            "date_created": "2023-04-17T12:17:13.092-04:00",
+            "last_modified": "2023-04-17T12:17:49.860-04:00",
+            "init_point": "https://www.mercadopago.com.ar/subscriptions/checkout?preapproval_id=2c938084878de20d018790018b87004e",
+            "auto_recurring": {
+                "frequency": 1,
+                "frequency_type": "months",
+                "transaction_amount": 400,
+                "currency_id": "ARS"
+            },
+            "payment_method_id": "account_money",
+            "payer_first_name": "Test",
+            "payer_last_name": ""
+        },
+        {
+            "id": "2c938084878e56e901878fb9b31d0034",
+            "status": "authorized",
+            "reason": "Suscripción de ejemplo",
+            "summarized": {
+                "semaphore": "green",
+                "charged_quantity": 1,
+                "charged_amount": 400,
+                "last_charged_date": "2023-04-17T11:01:43.426-04:00",
+                "last_charged_amount": 400
+            },
+            "payer_id": 1352484852,
+            "back_url": "https://f062-2800-810-4f6-1965-dff-f7e-eaf1-f6cb.ngrok-free.app",
+            "collector_id": 1352509222,
+            "application_id": 1474275356929919,
+            "date_created": "2023-04-17T10:58:44.633-04:00",
+            "last_modified": "2023-04-17T11:04:45.212-04:00",
+            "init_point": "https://www.mercadopago.com.ar/subscriptions/checkout?preapproval_id=2c938084878e56e901878fb9b31d0034",
+            "auto_recurring": {
+                "frequency": 1,
+                "frequency_type": "months",
+                "transaction_amount": 400,
+                "currency_id": "ARS"
+            },
+            "next_payment_date": "2023-05-17T10:58:44.633-04:00",
+            "payment_method_id": "account_money",
+            "payer_first_name": "Test",
+            "payer_last_name": ""
+        }
+    ]
 }
