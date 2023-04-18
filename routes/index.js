@@ -34,7 +34,7 @@ router.get("/success", function (req, res, next) {
   res.send('success! check query params info')
 });
 
-router.get("/:status", function (req, res, next) {
+router.get("/status/:status", function (req, res, next) {
   res.send(req.query)
 });
 
